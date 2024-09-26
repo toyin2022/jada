@@ -4,11 +4,11 @@ import Footer from "../components/Footer";
 
 const AppLayout = () => {
   return (
-    <>
+    <div className="bg-black">
       <Navbar />
       <Outlet />
       <Footer />
-    </>
+    </div>
   );
 };
 
